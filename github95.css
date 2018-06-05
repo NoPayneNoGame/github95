@@ -1,0 +1,248 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+	background-color: #D9D8D4;
+}
+
+.repohead.experiment-repo-nav {
+  background-color: inherit; 
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.mr-2.header-search-key-slash {
+  display: none;
+}
+
+.Header {
+	background: linear-gradient(to right, #152E75, #B0CCF1);  
+  padding: 6px 0;
+}
+
+.Header .header-search-wrapper {
+  border-radius: 0; 
+  border: 2px inset;
+  background-color: white;
+}
+
+.HeaderNavlink {
+	color: white;
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: #DBD8D5;
+  background-image: none;
+  border-radius: 0;
+  border: 2px outset;
+  min-width: 100px;
+  text-align: center;
+  color: black;
+  font-weight: 300;
+}
+
+.btn:visited {
+  border-color: #eeeeee;
+}
+
+.btn:focus, .btn:active, .btn:hover {
+  box-shadow: 0 0 1px 1px black;
+  background-color: #DBD8D5;
+  background-image: none;
+}
+
+.btn:focus::after, .btn:active::after, .btn:hover::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 1px;
+  right: 1px;
+  border: 1px dotted black;
+}
+
+.social-count  {
+ 	display: none; 
+}
+
+.btn .octicon, .reponav-item .octicon {
+ display: none; 
+}
+
+.octicon { 
+	color: transparent !important;
+}
+
+.numbers-summary li a {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 0px;
+}
+
+
+.numbers-summary li:nth-child(1) a {
+  background-image: url("https://user-images.githubusercontent.com/7011359/40986242-16521434-6929-11e8-8124-3c554399587f.png"); 
+}
+
+.numbers-summary li:nth-child(2) a {
+  background-image: url("https://user-images.githubusercontent.com/7011359/40986241-1617952a-6929-11e8-923e-480b01d19584.png"); 
+}
+
+.numbers-summary li:nth-child(3) a {
+  background-image: url("https://user-images.githubusercontent.com/7011359/40986248-17757220-6929-11e8-8eaa-30588bfd24a2.png"); 
+}
+
+.numbers-summary li:nth-child(4) a {
+  background-image: url("https://user-images.githubusercontent.com/7011359/40986244-168e64de-6929-11e8-95a8-997e51a0d64f.png"); 
+}
+
+.numbers-summary li:nth-child(5) a {
+  background-image: url("https://user-images.githubusercontent.com/7011359/40986247-173ae8e4-6929-11e8-9ac5-9a2f69920afe.png"); 
+}
+
+table.files td.icon { 
+ padding-right: 12px; 
+}
+
+table.files td.icon .octicon-file-directory {
+	width: 300%;
+  overflow: hidden;
+  background-image: url("https://user-images.githubusercontent.com/7011359/40986246-1701f8a4-6929-11e8-95d6-396f46283367.png") !important; 
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-position: -12px -12px;
+}
+
+table.files td.icon .octicon-file {
+  width: 200%;
+  background-image: url("https://user-images.githubusercontent.com/7011359/40988635-ef803d58-692e-11e8-84f8-2d7935945109.png") !important; 
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position-x: 2px;
+}
+
+.repohead-details-container .public, repohead-details-container .private {
+  background-image: url("https://user-images.githubusercontent.com/7011359/40986245-16c82f02-6929-11e8-8954-bc73c04578be.png"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 2px;
+}
+
+.repohead-details-container .author, .repohead-details-container strong {
+ text-decoration: underline; 
+}
+
+.repohead-details-container .author {
+ margin-left: 14px; 
+}
+
+
+.reponav-item.selected {
+  background: inherit;
+  transform: translateY(1px);
+  background: #DBD8D5;
+}
+
+.reponav-item {
+  border: 2px outset;
+  border-bottom: none;
+  padding: 4px;
+  color: black;
+}
+
+.reponav-item:visited {
+  border-color: #eeeeee;
+}
+
+.reponav-item .Counter {
+  display: none;
+}
+
+.container.new-discussion-timeline.experiment-repo-nav {
+  border: 2px outset;
+  padding: 16px 12px;
+}
+
+.topic-tag {
+	border-radius: 0;
+  background-color: #F0EDE9;
+  color: black;
+  border: 1px inset;
+}
+
+.overall-summary-bottomless {
+  border: 2px inset;
+  border-radius: 0;
+  background: white;
+  padding: 8px 0;
+}
+
+.numbers-summary span, .numbers-summary a {
+	color: black; 
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.repository-lang-stats-graph {
+  background: linear-gradient(to right, #152E75, #B0CCF1, #152E75);  
+}
+
+.language-color {
+ background-color: transparent !important; 
+}
+
+.BtnGroup .btn {
+  margin: 0 4px;
+  border-radius: 0;
+  border: 2px outset;
+}
+
+.commit-tease {
+ display: none !important; 
+}
+
+.file-wrap {
+ border: 2px inset; 
+}
+
+table.files td {
+	text-align: left !important;
+  padding: 2px 0;
+  border: none;
+}
+
+table.files td.message a, table.files td.age {
+  color: black; 
+}
+
+table.files td.content a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.file-wrap, .markdown-body {
+	max-height: 250px;
+  overflow: auto;
+}
+
+.markdown-body.entry-content * {
+	font-weight: 300 !important;
+  font-size: 1rem !important;
+  font-family: Arial, sans-serif !important;
+  background: transparent;
+  border-bottom: none;
+  color: black;
+}
+
+::-webkit-scrollbar {
+ width: 16px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #EAE9E6;
+}
+
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-button {
+  background: #DBD8D5;
+  border: 2px outset;
+}
